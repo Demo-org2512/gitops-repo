@@ -16,7 +16,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - name: nginx
-        image: nginx:stable
-        ports:
-        - containerPort: 80
+        - name: nginx
+          image: asia-south1-docker.pkg.dev/confixa-rnd/confixa-docker-images/abc/codebase-repo:0f24835465c9e39c2481a74b3bf8aeeedcc52704
+          ports:
+            - containerPort: 80
